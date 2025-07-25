@@ -1,0 +1,28 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My Developer Blog'
+theme = "paper"
+
+[params]
+  # color style
+  color = 'linen'                           # linen, wheat, gray, light
+
+  # header social icons
+  github = 'h01d'
+  linkedin = 'jcrush/'
+
+  # home page profile
+  avatar = 'https://gravatar.com/userimage/269215495/0b1ec7621dc796c4f9c048706df1e1d2.jpeg?size=256'                 # gravatar email or image url
+  name = 'Jarod'
+  bio = 'Here I will post about my learning journey in the world of Software Engineering.'
+
+
+  
+  disablePostNavigation = true              # disable post navigation
+  monoDarkIcon = true                       # show monochrome dark mode icon
+  # gravatarCdn = 'GRAVATAR_CDN_LINK'         # e.g. 'https://cdn.v2ex.com/gravatar/'
+  math = true                               # enable KaTeX math typesetting globally
+  localKatex = false                        # use local KaTeX js/css instead of CDN
+  graphCommentId = "YOUR_GRAPH_COMMENT_ID"  # use graph comment (disqus alternative)
+  favicon = "favicon.ico"                   # customize the default favicon
+  appleTouchIcon = "apple-touch-icon.png"   # customize the default Apple touch icon
