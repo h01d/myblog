@@ -3,6 +3,10 @@ languageCode = 'en-us'
 title = 'My Developer Blog'
 theme = "paper"
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 [params]
   # color style
   color = 'linen'                           # linen, wheat, gray, light
